@@ -1,0 +1,26 @@
+body {
+  background: rgb(53, 50, 50);
+  color: white;
+  font-weight: bold;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-family: "Roboto", sans-serif;
+}
+a {
+  color: rgb(241, 235, 235);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: rgb(150, 147, 147);
+}
+a:visited {
+  color: rgb(189, 187, 187);
+}
+h1:hover,
+h3:hover {
+  text-decoration: underline;
+}
+abbr {
+  text-decoration: underline 1px;
+}
