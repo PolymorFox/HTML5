@@ -24,3 +24,9 @@ h3:hover {
 abbr {
   text-decoration: underline 1px;
 }
+dd > strong {
+  text-shadow: 2px 2px 3px white;
+}
+dd > em {
+  opacity: 0.3;
+}
