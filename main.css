@@ -30,3 +30,17 @@ dd > strong {
 dd > em {
   opacity: 0.3;
 }
+@keyframes shiver {
+  0% {
+    margin-left: 0.75px;
+  }
+  100% {
+    margin-right: 0.75px;
+  }
+}
+dd > strong:hover {
+  animation: shiver 0.5s infinite;
+  animation-delay: 1s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
